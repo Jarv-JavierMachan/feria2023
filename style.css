@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    background-color: #252631;
+}
+nav a{
+    color: white;
+}
+nav{
+    display: flex;
+}
+nav .izquierda{
+    width: 75%;
+    display: flex; /*Flex se coloca al padre para modificar a los hijos*/
+    align-items: center; /*Centra verticalmente a los hijos*/
+}
+nav .izquierda img{
+    width: 150px;
+    margin: 20px;
+}
+nav .izquierda a{
+    text-decoration: none;
+    margin: 0 20px;
+}
+nav .derecha  {
+    width: 25%;
+}
